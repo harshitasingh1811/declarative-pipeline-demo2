@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo"Inside the script , demo $DEMO"
+echo "Inside the script , demo $DEMO"
