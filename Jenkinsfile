@@ -10,7 +10,7 @@ pipeline {
         LOG_LEVEL='INFO'
         }
       steps {
-        echo "this is build ${BUILD_NUMBER} and ${DEMO}"
+        echo "Building Release ${RELEASE} with log level ${LOG_LEVEL}"
        
       }
     }
