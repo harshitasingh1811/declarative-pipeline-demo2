@@ -25,7 +25,7 @@ pipeline {
   }
   post{
     sucsess{
-      archieveArtifact 'test-results.txt'
+      archieveArtifacts 'test-results.txt'
     }
   }
   
